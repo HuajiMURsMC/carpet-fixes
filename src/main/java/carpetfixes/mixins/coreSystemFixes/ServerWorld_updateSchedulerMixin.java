@@ -1,6 +1,7 @@
 package carpetfixes.mixins.coreSystemFixes;
 
 import carpetfixes.CarpetFixesInit;
+import carpetfixes.CarpetFixesSettings;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
