@@ -324,15 +324,6 @@ public class CarpetFixesSettings {
 
     //by FX - PR0CESS
     @Rule(
-            desc = "Fixes Breaking blocks that should not be able to be broken using headless pistons",
-            extra = {"Illegal blocks are any blocks that have a hardness value of -1.0F",
-                     "Fixes [MC-188220](https://bugs.mojang.com/browse/MC-188220)"},
-            category = {BUGFIX,RECOMMENDED}
-    )
-    public static boolean illegalBreakingFix = false;
-
-    //by FX - PR0CESS
-    @Rule(
             desc = "Fixes being able to make and use Headless Pistons",
             extra = "Fixes [MC-27056](https://bugs.mojang.com/browse/MC-27056)",
             category = {BUGFIX,RECOMMENDED}
